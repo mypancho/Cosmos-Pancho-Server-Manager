@@ -95,7 +95,7 @@ Note that **you are allowed** to use it to host a monetized business website, a 
 Installation is simple using Docker:
 
 ```sh
-docker run -d -p 80:80 -p 443:443 -p 4242:4242/udp --privileged --name cosmos-server -h cosmos-server --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /:/mnt/host -v /var/lib/cosmos:/config mypancho/pancho-server-manager:latest
+docker run -d -p 80:80 -p 443:443 -p 4242:4242/udp --privileged --name pancho-server-manager -h pancho-server-manager --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /:/mnt/host -v /var/lib/cosmos:/config mypancho/pancho-server-manager:latest
 ```
 
 
