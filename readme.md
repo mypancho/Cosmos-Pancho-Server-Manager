@@ -6,7 +6,7 @@
 
 Whether you have a **server**, a **NAS**, or a **Raspberry Pi** with applications such as **Plex**, **HomeAssistant** or even a blog, Cosmos is the perfect solution to run and secure them all. Simply install Cosmos on your server and connect to your applications through it to enjoy built-in security and robustness for all your services, right out of the box.
 
-PSM is: 
+Pancho Server Manager is: 
 
 Application Hub 📦📱 Simplify the installation and management of your applications with straightforward installers, automatic updates, and security checks. This seamlessly integrates with manual installation methods like importing docker-compose files or utilizing the docker CLI.
 Personalized Dashboard 🏠🖼 Access all your applications from a unified and aesthetically customizable interface.
@@ -62,7 +62,7 @@ Key Features:
   * **Privileged Access** 🔑 Assign privileged access to specific user groups, granting them exemption from certain restrictions and ensuring uninterrupted service even durin attacks.
   * **Customizable Policies** ⚙️ Modify SmartShield's default policies to suit your specific needs, such as request limits, time budgets, and more.
 
-# Why use PSM?
+# Why use Pancho Server Manager?
 
 If you're managing your self-hosted data, like a Plex server or your photo server, you're susceptible to potential data exposure or server hijacking—even within your local network.
 
@@ -84,7 +84,7 @@ Pancho Server Manager has the capability to automatically generate and renew HTT
 
 # Licence
 
-PSM is using the Apache 2.0 Licence with the Commons Clause 1.0. This is a common clause among open source infrastructure software, such as databases, reverse proxies, etc...
+Pancho Server Manager is using the Apache 2.0 Licence with the Commons Clause 1.0. This is a common clause among open source infrastructure software, such as databases, reverse proxies, etc...
 
 TL;DR: You can use it freely. You can also fork it and redistribute it, But you are not allowed to sell it, a derivative or to sell a service based on it (ex. SaaS or PaaS).
 
@@ -103,7 +103,7 @@ Once installed, simply go to `http://your-server-ip` and follow the instructions
 
 Port 4242 is a UDP port used for the Constellation VPN.
 
-Make sure you expose the right ports (by default 80 / 443). It is best to keep those ports intacts, as PSM is meant to run as your reverse proxy. 
+Make sure you expose the right ports (by default 80 / 443). It is best to keep those ports intacts, as Pancho Server Manager is meant to run as your reverse proxy. 
 
 You also need to keep the docker socket mounted, as PSM needs to be able to manage your containers.
 
